@@ -222,12 +222,12 @@ a, input[type="submit"] {
 
 .ybtn-accent-color {
     color: #ffffff;
-    background-color: #00b869;
+    background-color: #66556b;
 }
 
 .ybtn-accent-color:hover, .ybtn-accent-color:focus {
     color: #ffffff;
-    background-color: #009f5a;
+    background-color: #608504;
 }
 
 .ybtn-header-color {
@@ -379,9 +379,9 @@ a, input[type="submit"] {
     width: 100%;
     height: 100%;
     background-repeat: repeat-x;
-    background-image: -webkit-linear-gradient(120deg, #A8D82A, #5B7419);
-    background-image: -o-linear-gradient(120deg, #A8D82A, #5B7419);
-    background-image: linear-gradient(120deg, #A8D82A, #5B7419);
+    background-image: -webkit-linear-gradient(120deg, #97C226, #97C226);
+    background-image: -o-linear-gradient(120deg, #97C226, #97C226);
+    background-image: linear-gradient(120deg, #97C226, #97C226);
 }
 
 #header-holder.inner-header .bg-animation  {
@@ -4660,9 +4660,9 @@ svg.logo text {
 }
 
 #header-holder.contact-header #page-head .page-title {
-    font-size: 27px;
+    font-size: 40px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 #header-holder.contact-header #page-head .text {
@@ -6144,7 +6144,6 @@ svg.logo text {
     color: #00b869;
     font-size: 17px;
     font-weight: 600;
-    text-transform: uppercase;
     margin-bottom: 20px;
 }
 
