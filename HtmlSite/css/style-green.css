@@ -367,8 +367,21 @@ a, input[type="submit"] {
     z-index: -1;
 }
 
-#header-holder.inner-header {
+/* #header-holder.inner-header {
     position: relative;
+} */
+
+.about-header:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    background-repeat: repeat-x;
+    background-image: -webkit-linear-gradient(120deg, #97C226, #97C226);
+    background-image: -o-linear-gradient(120deg, #97C226, #97C226);
+    background-image: linear-gradient(120deg, #97C226, #97C226);
 }
 
 #header-holder.inner-header:before {
@@ -4119,7 +4132,7 @@ svg.logo text {
     margin-left: -25px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
- 
+
 }
 
 #footer .address div {
@@ -4681,7 +4694,7 @@ svg.logo text {
 }
 
 #header-holder.about-header {
-    background-color: #00b869;
+    background-color: #97C226;
 }
 
 #header-holder.about-header #page-head {
@@ -4919,7 +4932,7 @@ svg.logo text {
     height: 106px;
     display: inline-block;
     position: absolute;
-    background-color: rgba(0, 199, 114, 0.8);
+    background-color: #ebebebcc;
     text-align: center;
     margin-top: -53px;
     margin-left: -53px;
@@ -5706,7 +5719,7 @@ svg.logo text {
 }
 
 #articles .article-summary .article-details {
-    padding: 24px;
+    padding: 20px;
     text-align: left;
 }
 
@@ -5720,7 +5733,7 @@ svg.logo text {
     display: inline-block;
     width: 100%;
     color: #16386F;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     text-decoration: none;
     text-transform: capitalize;
@@ -5762,8 +5775,9 @@ svg.logo text {
 #articles .article-summary .article-text {
     color: #9DA9BC;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 1.8em;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 #articles .article-summary .article-links {
