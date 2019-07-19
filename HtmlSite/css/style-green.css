@@ -101,7 +101,6 @@ a, input[type="submit"] {
     position: relative;
     margin-top: 30px;
     margin-top: 0;
-    margin-bottom: 5px;
 }
 
 .row-title.grey-color {
@@ -122,6 +121,7 @@ a, input[type="submit"] {
     font-weight: 400;
     margin-bottom: 50px;
 }
+
 
 .row-subtitle:after {
     position: absolute;
@@ -792,7 +792,7 @@ svg.logo text {
 
 .unity-box {
     position: relative;
-    padding: 13px 60px 13px 75px;
+    padding: 15px 10px 10px 15px; 
     border-radius: 8px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -834,8 +834,8 @@ svg.logo text {
 }
 
 .unity-box .unity-title {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 10px;
+    font-weight:600;
     color: #2A4968;
     text-transform: uppercase;
 }
@@ -1719,7 +1719,7 @@ svg.logo text {
 }
 
 .info-why h3{
-    text-align: right;
+    text-align: center;
     font-weight:700
 }
 /* #info .info-text {
@@ -1736,9 +1736,9 @@ svg.logo text {
     font-size: 16px;
     font-weight: lighter;
     color: #7a7896;
-    text-align:center;
+    text-align:left;
     line-height: 1.5em;
-     text-align: center;
+    
      margin-top: 40px;
 }
 
@@ -1800,6 +1800,47 @@ svg.logo text {
     transition: all 0.3s ease 0s;
     box-shadow: -1px 8px 18px rgba(0, 0, 0, 0.08);
 }
+
+#open{
+    background-color: #f9fbff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.opening{
+    box-shadow: -1px 8px 18px rgba(0, 0, 0, 0.08);
+    background-color: #fcfcfd;
+    /* padding-top: 38px; */
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.opening:hover{
+    background-color: #fcfcfd;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.open-message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* .open-button{
+    padding:9px 15px;
+    font-weight: 600px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #66556b;
+    color: white;
+    text-decoration: none;
+} */
 
 .service-box:hover {
     border: 0;
@@ -1899,8 +1940,8 @@ svg.logo text {
 
 .message-area.normal-bg {
     background-color: #f9f9fd;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .message-area.normal-bg .text-purple-dark, .message-area.normal-bg .text-other-color2 {
@@ -3748,7 +3789,7 @@ svg.logo text {
 	10. Testimonials Section Styles
 -------------------------------------------------------------------*/
 #testimonials {
-    padding-top: 60px;
+    /* padding-top: 15px; */
     padding-bottom: 60px;
     text-align: center;
     overflow: hidden;
@@ -4030,6 +4071,7 @@ svg.logo text {
 
 #footer ul.footer-menu li {
     margin-bottom: 15px;
+    color: #747e94;
 }
 
 #footer ul.footer-menu li a {
@@ -4046,7 +4088,7 @@ svg.logo text {
 
 #footer ul.footer-menu li a:hover, #footer ul.footer-menu li a:focus {
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #ffffff00;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     text-decoration: none;
@@ -4062,12 +4104,19 @@ svg.logo text {
 }
 
 #footer p {
-    color: #ffffff;
+     color: #747e94;
     font-size: 15px;
 }
 
-#footer .phone {
+#footer p:hover {
     color: #ffffff;
+   font-size: 15px;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+}
+
+#footer .phone {
+   color: #747e94;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -4080,12 +4129,18 @@ svg.logo text {
 }
 
 #footer .phone [class*="fa"] {
-    color: #ffffff;
+    color: #747e94;
     font-size: 16px;
     width: 20px;
     margin-right: 7px;
     text-align: center;
     vertical-align: middle;
+}
+
+#footer .phone [class*="fa"]:hover {
+    color:#ffffff;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 #footer .phone a {
@@ -4096,10 +4151,12 @@ svg.logo text {
     background-color: rgba(255, 255, 255, 0.05);
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    cursor: pointer;
 }
 
 #footer .email {
-    color: #ffffff;
+    color: #747e94;
     font-size: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -4111,17 +4168,25 @@ svg.logo text {
 }
 
 #footer .email [class*="fa"] {
-    color: #ffffff;
+    color: #747e94;
     font-size: 17px;
     width: 20px;
     margin-right: 7px;
     text-align: center;
 }
 
+#footer .email [class*="fa"]:hover {
+    color:#ffffff;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
 #footer .email:hover {
     background-color: rgba(255, 255, 255, 0.05);
-    -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    cursor: pointer;
 }
 
 #footer .address {
@@ -4139,10 +4204,19 @@ svg.logo text {
     display: inline-block;
     color: #ffffff;
     font-size: 15px;
+    color: #747e94;
+}
+
+#footer .address div:hover {
+    -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 #footer .address [class*="fa"] {
-    color: #ffffff;
+    color: #747e94;
     font-size: 19px;
     width: 20px;
     margin-right: 7px;
@@ -4150,10 +4224,17 @@ svg.logo text {
     vertical-align: top;
 }
 
+#footer .fa-map-marker:hover {
+    color:#ffffff;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
 #footer .address:hover {
     background-color: rgba(255, 255, 255, 0.05);
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+   
 }
 
 #footer .social-menu {
@@ -4987,7 +5068,7 @@ svg.logo text {
     background-repeat: repeat-x;
     background-image: -webkit-linear-gradient(-30deg, #06ff94, #00b869);
     background-image: -o-linear-gradient(-30deg, #06ff94, #00b869);
-    background-image: linear-gradient(-30deg, #06ff94, #00b869);
+    background-image: linear-gradient(-30deg, #06ff94,#00b869);
     -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.15);
     top: 50%;
@@ -5340,7 +5421,7 @@ svg.logo text {
 }
 
 #team .person-box:hover, #team .person-box:focus {
-    background-color: #00b869;
+    background-color: #97C226;
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);

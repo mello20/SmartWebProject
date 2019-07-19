@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/style-green.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
 </head>
 
 <body>
@@ -41,81 +42,107 @@
                             <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse"
                                 id="bs">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a style="border-bottom:5px solid #ffffff" href="index.html">Home</a></li>
                                     <li class="dropdown unity-menu">
-                                        <a href="#pricing">Services <i class="fas fa-caret-down"></i></a>
+                                        <a href="services.html">Services <i class="fas fa-caret-down"></i></a>
                                         <ul class="dropdown-menu dropdown-unity">
                                             <li>
-                                                <a class="unity-link" href="webhosting.html">
+                                                <a class="unity-link" href="services.html">
                                                     <div class="unity-box">
-                                                        <div class="unity-icon">
-                                                            <img src="images/service-icon1.svg" alt="">
-                                                        </div>
+
                                                         <div class="unity-title">
-                                                            Web Hosting
+                                                            Web App Development
                                                         </div>
-                                                        <div class="unity-details">
-                                                            Flexible shared-hosting
-                                                        </div>
+
                                                     </div>
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a class="unity-link" href="resellershosting.html">
+                                                <a class="unity-link" href="services.html">
                                                     <div class="unity-box">
-                                                        <div class="unity-icon">
-                                                            <img src="images/service-icon2.svg" alt="">
-                                                        </div>
+
                                                         <div class="unity-title">
-                                                            Resellers
+                                                            Mobile App Development
                                                         </div>
-                                                        <div class="unity-details">
-                                                            Money on the side!
-                                                        </div>
+
                                                     </div>
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a class="unity-link" href="cloudhosting.html">
+                                                <a class="unity-link" href="services.html">
                                                     <div class="unity-box">
-                                                        <div class="unity-icon">
-                                                            <img src="images/service-icon3.svg" alt="">
-                                                        </div>
+
                                                         <div class="unity-title">
-                                                            Cloud Hosting
+                                                            Consultancy
                                                         </div>
-                                                        <div class="unity-details">
-                                                            Fast as rocket
-                                                        </div>
+
                                                     </div>
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a class="unity-link" href="vpshosting.html">
+                                                <a class="unity-link" href="services.html">
                                                     <div class="unity-box">
-                                                        <div class="unity-icon">
-                                                            <img src="images/service-icon4.svg" alt="">
-                                                        </div>
+
                                                         <div class="unity-title">
-                                                            VPS Servers
+                                                            Data Server Management
                                                         </div>
-                                                        <div class="unity-details">
-                                                            Scalable hosting
+
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a class="unity-link" href="services.html">
+                                                    <div class="unity-box">
+
+                                                        <div class="unity-title">
+                                                            Smart Tutoring
                                                         </div>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a class="unity-link" href="services.html">
+                                                    <div class="unity-box">
+
+                                                        <div class="unity-title">
+                                                            Cloud Computing
+                                                        </div>
+
                                                     </div>
                                                 </a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">About Us </a>
+                                        <a href="aboutus.html">About Us </a>
                                     </li>
-                                    <li><a href="">Career</a></li>
+
+                                    <li class="dropdown unity-menu">
+                                        <a href="career.html">Career <i class="fas fa-caret-down"></i></a>
+                                        <ul class="dropdown-menu dropdown-unity">
+                                            <li>
+                                                <a class="unity-link" href="career.html">
+                                                    <div class="unity-box">
+
+                                                        <div class="unity-title">
+                                                            View Opening
+                                                        </div>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+
                                     <li class="support-button-holder support-dropdown">
-                                        <a href="#">Contact Us</a>
+                                        <a href="contact.html">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -140,8 +167,9 @@
                                     </a>
                                 </div> -->
                                 <div class="spacer"></div>
-                                <span class="big-title">LEARN | BUILD | IMPACT.</span>
-                                <p>Designing Bespoke Products Fitting Your Needs and Delivering. </p>
+                                <span class="animated slideInLeft big-title">LEARN | BUILD | IMPACT.</span>
+                                <p class="animated slideInDown">Designing Bespoke Products Fitting Your Needs and
+                                    Deliver Satisfaction. </p>
                                 <div class="btn-holder">
                                     <a href="signup.html" class="ybtn ybtn-header-color">Register</a><a
                                         href="contact.html" class="ybtn ybtn-white ybtn-shadow"
@@ -162,14 +190,19 @@
     <div id="info" class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="info-why">
-                    <h3>WHY WE?</h3>
+
+                <div class="col-md-12">
+                    <div class="row-title">WHY US</div>
+                    <!-- <div class="row-subtitle"></div> -->
                 </div>
+                <!-- <div class="info-why">
+                    <h3 style="color:#2F3C52">WHY US?</h3>
+                </div> -->
                 <div class="info-host">
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #363542;">Expertise</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Expertise</a>
                             <img src="images/expertise.png" style="width:50px; margin-left:110px" alt="">
                         </div>
 
@@ -183,7 +216,7 @@
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #363542;">Value</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Value</a>
                             <img src="images/mobile-payment.png" style="width:50px; margin-left:150px" alt="">
                         </div>
 
@@ -191,12 +224,13 @@
                             <p>Here at Smartware we provide tailor-made solutions that have our customer feeling like
                                 winners, proving that cost is nothing when quality is assured.</p>
                         </div>
+
                     </div>
 
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #363542;">Delivery</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Delivery</a>
                             <img src="images/briefcase.png" style="width:50px; margin-left:120px" alt="">
                         </div>
 
@@ -209,7 +243,7 @@
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #363542;">Adaptibility</a>
+                            <a href=""  style="font-size: 20px; font-weight: bold; color: #2A4968;">Adaptibility</a>
                             <img src="images/communication.png" style="width:50px; margin-left:80px" alt="">
                         </div>
 
@@ -243,8 +277,14 @@
                         <div class="service-details">
                             <p>At Smartware, we develop responsive, hign end and lively web applications that functions
                                 with optimum speed to interage your solutions.</p>
+
+                            <a href="services.html" class="ybtn ybtn-header-color">Read More</a>
                         </div>
                     </div>
+                    <!-- <div class="btn-holder">
+                        <a href="signup.html" class="ybtn ybtn-header-color">Register</a>
+                        <a href="contact.html"class="ybtn ybtn-white ybtn-shadow" style="margin:0;">Contact Us</a>
+                    </div> -->
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="service-box">
@@ -255,6 +295,7 @@
                         <div class="service-details">
                             <p>Smartware puts you ahead of the times with fascinating mobile application designs that
                                 function adaptively with your mobile devices.</p>
+                            <a href="services.html" class="ybtn ybtn-header-color">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -267,6 +308,7 @@
                         <div class="service-details">
                             <p>At Smartware, we render professional consultation and proffer expert advice on IT and
                                 Software development. Management and support</p>
+                            <a href="services.html" class="ybtn ybtn-header-color">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -279,6 +321,7 @@
                         <div class="service-details">
                             <p>Smartware provides reliable database management services, given her clients one less
                                 deployment concern to worry about</p>
+                            <a href="services.html" class="ybtn ybtn-header-color">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -293,6 +336,7 @@
                             <p>At Smartware, we transcend the norms of the mundane classroom instructive environment as
                                 we employ online training with applicable exercises and relevant instructional materials
                             </p>
+                            <a href="services.html" class="ybtn ybtn-header-color">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -307,6 +351,7 @@
                             <p>At Smartware, we strive to deliver and we leverage on shared resources with
                                 Microsoft Azure to achieve coherence and minimize infrastructure cost ensuring your
                                 solutions run efficiently.</p>
+                            <a href="services.html" class="ybtn ybtn-header-color">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -344,8 +389,8 @@
 
                         <!-- <div class="phone"><i class="fas fa-phone"></i>+2347083639539</div>
                         <div class="email"><i class="fas fa-envelope"></i> smartwareng@live.com</div> -->
-                        <div  class="address">
-                           
+                        <div class="address">
+
                             <p>Smartware solutions is a software development hub that champions diverse project from
                                 even more diverse industries; committed to learning client needs, building innovative
                                 solutions and impacting the seamlessness that the IT world demands.<br>
@@ -355,12 +400,14 @@
                 </div>
                 <div class="col-xs-6 col-sm-2 col-md-2">
                     <div class="footer-menu-holder">
-                        <h4>Company</h4>
+                        <h4>Product</h4>
                         <ul class="footer-menu">
-                            <li><a href="">About us</a></li>
-                            <li><a href="blog.html">News</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="">Ipos Bi</a></li>
+                            <li><a href="">Smartfuel</a></li>
+                            <li><a href="">Companion Card</a></li>
+                            <li><a href="">Mobile Payment SDK</a></li>
+                            <li><a href="">ALAT</a></li>
+                            <li><a href="">Android SDK</a></li>
                         </ul>
                     </div>
                 </div>
@@ -372,31 +419,31 @@
                             <li><a href="">Mobile App Development</a></li>
                             <li><a href="">Database Server Management</a></li>
                             <li><a href="">Consultancy</a></li>
-                            <li><a href="">Smart Tutouring</a></li>
+                            <li><a href="">Smart Tutoring</a></li>
                             <li><a href="">Cloud Computing</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="address-holder">
-                                <h4>Contact</h4>
-                                <div class="phone"><i class="fas fa-phone"></i>+2347083639539</div>
-                                <div class="email"><i class="fas fa-envelope"></i> smartwareng@live.com</div>
-                                <div class="address">
-                                    <i class="fas fa-map-marker"></i> 
-                                    <div>No 2J,Obasa Close,<br>
-                                       Oba-Akran Avenue,Ikeja Lagos State,<br>
-                                      Nigeria.</div>
-                                </div>
-                            </div>
+                    <div class="address-holder">
+                        <h4>Contact</h4>
+                        <div class="phone"><i class="fas fa-phone"></i>+2347083639539</div>
+                        <div class="email"><i class="fas fa-envelope"></i> smartwareng@live.com</div>
+                        <div class="address">
+                            <i class="fas fa-map-marker"></i>
+                            <div>No 2J,Obasa Close,<br>
+                                Oba-Akran Avenue, Ikeja, Lagos State,<br>
+                                Nigeria.</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-1 col-md-1">
                     <div class="social-menu-holder">
                         <ul class="social-menu">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
