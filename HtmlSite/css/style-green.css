@@ -122,6 +122,18 @@ a, input[type="submit"] {
     margin-bottom: 50px;
 }
 
+.row-line:after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 7px;
+    background-color: #D9E3F2;
+    left: 5%;
+    margin-left: -40px;
+    bottom: -15px;
+    border-radius: 8px;
+}
+
 
 .row-subtitle:after {
     position: absolute;
@@ -792,7 +804,7 @@ svg.logo text {
 
 .unity-box {
     position: relative;
-    padding: 15px 10px 10px 15px; 
+    padding: 5px; 
     border-radius: 8px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
