@@ -99,8 +99,28 @@ a, input[type="submit"] {
     font-weight: 700;
     color: #2F3C52;
     position: relative;
-    margin-top: 30px;
-    margin-top: 0;
+    margin-top: 40px;
+    /* margin-top: 0; */
+}
+
+.top-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F3C52;
+    position: relative;
+    /* margin-top: 40px; */
+    /* margin-top: 0; */
+}
+
+.client-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F3C52;
+    position: relative;
+    margin-top: 40px;
+    /* margin-top: 0; */
 }
 
 .row-title.grey-color {
@@ -1873,16 +1893,53 @@ svg.logo text {
 }
 
 .service-box .service-icon img {
-    width: 128px;
+    width: 100px;
 }
 
 .service-box .service-title {
-    margin-left: 120px;
+    margin-left: 80px;
     font-size: 16px;
     font-weight: 600;
     color: #2A4968;
     text-transform: uppercase;
     margin-bottom: 15px;
+
+}
+.service-delivery p{
+    font-size: 16px;
+    font-weight: 300;
+    /* margin-left: 3px; */
+    font-weight: 300;
+    color: #7a7896;
+    margin-left: 80px;
+
+}
+.service-banking p{
+    font-size: 16px;
+    font-weight: 300;
+    /* margin-left: 3px; */
+    font-weight: 300;
+    color: #7a7896;
+    margin-left: 80px;
+    padding-bottom: 30px;
+
+}
+
+.service-store p{
+    font-size: 16px;
+    font-weight: 300;
+    font-weight: 300;
+    color: #7a7896;
+    margin-left: 80px;
+   
+}
+
+.service-product p{
+    font-size: 16px;
+    font-weight: 300;
+    font-weight: 300;
+    color: #7a7896;
+    margin-left: 80px;
 }
 
 .service-box .service-title a {
@@ -5769,7 +5826,7 @@ svg.logo text {
 
 #articles {
     background-color: #ffffff;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
 }
