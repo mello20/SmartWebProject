@@ -643,21 +643,23 @@ svg.logo text {
     transition: all 0.3s cubic-bezier(0.78, 0.74, 0.25, 1);
 }
 
-.dropdown-menu:before {
+.dropdown-menu:before  {
     position: absolute;
     content: "";
     top: -7px;
     right: 40px;
     width: 0;
     height: 0;
+    margin-left: 20px;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid #ffffff;
 }
 
+
 .dropdown-menu > li > a {
     color: #69677e;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     text-decoration: none;
     display: block;
@@ -1240,6 +1242,46 @@ svg.logo text {
     -ms-animation: slide-fade1 15s linear infinite;
     animation: slide-fade1 15s linear infinite;
 }
+
+.fade{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: slide-fade1 15s linear infinite;
+    -moz-animation: slide-fade1 15s linear infinite;
+    -ms-animation: slide-fade1 15s linear infinite;
+    animation: slide-fade1 15s linear infinite;
+}
+
+.fade2{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: slide-fade2 15s linear infinite;
+    -moz-animation: slide-fade2 15s linear infinite;
+    -ms-animation: slide-fade2 15s linear infinite;
+    animation: slide-fade2 15s linear infinite;
+}
+
+.fade3{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: slide-fade3 15s linear infinite;
+    -moz-animation: slide-fade3 15s linear infinite;
+    -ms-animation: slide-fade3 15s linear infinite;
+    animation: slide-fade3 15s linear infinite;
+}
+
 
 #header-holder.main-header .bg-animation .graphic-show .img.img2 {
     margin-top: 48px;
