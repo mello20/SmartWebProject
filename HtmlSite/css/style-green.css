@@ -133,6 +133,16 @@ a, input[type="submit"] {
     bottom: -6px;
 }
 
+
+.row-sub {
+    position: relative;
+    text-align: center;
+    font-size: 19px;
+    color: #7D8EA8;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
 .row-subtitle {
     position: relative;
     text-align: center;
@@ -154,6 +164,17 @@ a, input[type="submit"] {
     border-radius: 8px;
 }
 
+.row-sub:after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #D9E3F2;
+    left: 50%;
+    margin-left: -45px;
+    bottom: -10px;
+    border-radius: 10px
+}
 
 .row-subtitle:after {
     position: absolute;
@@ -229,6 +250,26 @@ a, input[type="submit"] {
     -ms-transform: scale(1);
     transform: scale(1);
 }
+ .read-button a{
+    color:#2F3C52;
+    text-decoration: none;
+    font-size:15px;
+    font-weight:600
+ }
+
+.read-button{
+    background:transparent;
+    padding:8px;
+    border:1px solid #9BC727;
+    width:135px
+}
+.read-button:hover a{
+    color:#fff;
+}
+.read-button:hover{
+    background-color: #9BC727;
+    transition: 0.3s ease;
+}
 
 .ybtn:hover, .ybtn:focus {
     text-decoration: none;
@@ -252,9 +293,37 @@ a, input[type="submit"] {
     box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
 }
 
+/* .ybtn-accent-contact a{
+    color:#66556b;
+    text-decoration: none;
+    font-size:15px;
+    font-weight:600
+} */
+.ybtn-accent-contact {
+    color: #2F3C52;
+    background-color: transparent;
+    border:1px solid #9BC727;
+    padding: 9px 26px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* .ybtn-accent-contact:hover a{
+    color: #ffffff;
+} */
+.ybtn-accent-contact:hover{
+    color: #ffffff;
+    background-color: #9BC727;
+    text-decoration: none;
+}
+.ybtn-accent-color:hover, .ybtn-accent-color:focus {
+    color: #ffffff;
+    background-color: #608504;
+}
+
 .ybtn-accent-color {
     color: #ffffff;
-    background-color: #66556b;
+    background-color: #2F3C52;
 }
 
 .ybtn-accent-color:hover, .ybtn-accent-color:focus {
@@ -826,7 +895,7 @@ svg.logo text {
 
 .unity-box {
     position: relative;
-    padding: 5px; 
+    padding: 5px;
     border-radius: 8px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1813,7 +1882,7 @@ svg.logo text {
     color: #7a7896;
     text-align:left;
     line-height: 1.5em;
-    
+
      margin-top: 40px;
 }
 
@@ -1974,7 +2043,7 @@ svg.logo text {
     font-weight: 300;
     color: #7a7896;
     margin-left: 80px;
-   
+
 }
 
 .service-product p{
@@ -2045,15 +2114,15 @@ svg.logo text {
 	6. Message Section Styles
 -------------------------------------------------------------------*/
 .message-area {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     position: relative;
 }
 
 .message-area.normal-bg {
-    background-color: #f9f9fd;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    background-color: #F2F2F2;
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
 }
 
 .message-area.normal-bg .text-purple-dark, .message-area.normal-bg .text-other-color2 {
@@ -3900,6 +3969,13 @@ svg.logo text {
 /*------------------------------------------------------------------
 	10. Testimonials Section Styles
 -------------------------------------------------------------------*/
+
+#Expertise {
+    /* padding-top: 15px; */
+    padding-bottom: 60px;
+    text-align: center;
+    overflow: hidden;
+}
 #testimonials {
     /* padding-top: 15px; */
     padding-bottom: 60px;
@@ -4346,7 +4422,7 @@ svg.logo text {
     background-color: rgba(255, 255, 255, 0.05);
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-   
+
 }
 
 #footer .social-menu {
