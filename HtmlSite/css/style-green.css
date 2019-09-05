@@ -712,7 +712,8 @@ svg.logo text {
     transition: all 0.3s cubic-bezier(0.78, 0.74, 0.25, 1);
 }
 
-.dropdown-menu:before  {
+
+.dropdown-menu:before {
     position: absolute;
     content: "";
     top: -7px;
@@ -4935,8 +4936,8 @@ svg.logo text {
 
 #page-head .page-title {
     color: #ffffff;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 700;
     position: relative;
     z-index: 10;
 }
