@@ -299,10 +299,21 @@ a, input[type="submit"] {
     font-size:15px;
     font-weight:600
 } */
+
+
+.ybtn-accent-apply {
+    color: #2F3C52;
+    background-color: transparent;
+    border:1px solid #2F3C52;
+    padding: 9px 26px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .ybtn-accent-contact {
     color: #2F3C52;
     background-color: transparent;
-    border:1px solid #9BC727;
+    border:1px solid #2F3C52;
     padding: 9px 26px;
     font-size: 15px;
     font-weight: 600;
@@ -311,10 +322,19 @@ a, input[type="submit"] {
 /* .ybtn-accent-contact:hover a{
     color: #ffffff;
 } */
+
+.ybtn-accent-apply:hover{
+    color: #ffffff;
+    background-color: #9BC727;
+    text-decoration: none;
+    border:1px solid #9BC727;
+}
+
 .ybtn-accent-contact:hover{
     color: #ffffff;
     background-color: #9BC727;
     text-decoration: none;
+    border:1px solid #9BC727;
 }
 .ybtn-accent-color:hover, .ybtn-accent-color:focus {
     color: #ffffff;
@@ -503,7 +523,7 @@ a, input[type="submit"] {
     top: 0;
     height: 100%;
     background-image: inherit;
-    background-color:  #A8D82A,;
+    background-color:  #97C226,;
     -webkit-transform: skewY(0deg);
     -moz-transform: skewY(0deg);
     -ms-transform: skewY(0deg);
@@ -524,7 +544,7 @@ a, input[type="submit"] {
         top: 0;
         width: 100%;
         height: 60%;
-        background-color:  #A8D82A,;
+        background-color:  #97C226,;
         -webkit-transform: skewY(-10deg);
         -moz-transform: skewY(-10deg);
         -ms-transform: skewY(-10deg);
