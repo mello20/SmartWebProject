@@ -27,7 +27,7 @@ h2 small {
   position:relative; 
   margin-bottom:45px; 
 }
-input 				{
+input {
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
@@ -38,7 +38,7 @@ input 				{
 input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
-label 				 {
+.group label 				 {
   color:#66556b; 
   font-size:15px;
   font-weight:normal;
@@ -59,7 +59,10 @@ input:focus ~ label, input:valid ~ label 		{
 }
 
 /* BOTTOM BARS ================================= */
-.bar 	{ position:relative; display:block; width:300px; }
+
+.bar 	{ position:relative; display:block; width:300px;}
+
+
 .bar:before, .bar:after 	{
   content:'';
   height:2px; 
@@ -113,4 +116,93 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
 	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
+}
+
+.ybtn-form-color {
+  color: #ffffff;
+  background-color: #2F3C52;
+  width:300px;
+}
+.ybtn-form-color:hover {
+  color: #ffffff;
+  background-color: #2F3C52;
+}
+
+#career-form ul{
+  padding: 0;
+}
+.form-button label{
+  display: block
+}
+.form-button input,label{
+ margin: .4rem 0;
+}
+/* #devops{
+  width: 50%;
+  margin: auto;
+} */
+
+/* form, ul, li, input, label{
+  box-sizing: border-box;
+  display: block;
+
+}
+#devops ul{
+  list-style-type: none;
+  padding:0;
+}
+#devops li{
+  position:relative; 
+  border-bottom: 1px solid #2F3C52;
+  margin-top: -1px;
+}
+
+#devops label, input{
+  transition:color 0.4s ease, background-color 0.1s ease-in-out;
+}
+
+#devops label{
+  position: absolute;
+  top:-10px;
+} */
+.new-button{
+  display:inline-block;
+  padding:9px 15px;
+  background-color: #2F3C52;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.opening-details p{
+ color: white;
+ font-size: 20px;
+ font-weight: 300px;
+ margin:50px 10px 30px;
+}
+
+input[type="file"]{
+  position: absolute;
+  z-index:-1;
+  top:10px;
+  left:8px;
+
+}
+.button-wrap{
+position: relative;
+}
+
+#container {
+  position: absolute;
+  width: 710px;
+  height: 5em;
+  left: 50%;
+  top: 50%;
+  margin-left: -355px;
+  margin-top: -2.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }

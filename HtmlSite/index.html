@@ -15,17 +15,12 @@
 <style>
 .dropdown-submenu {
     position: relative;
-    /* content: "";
-    top: -7px;
-    right: 40px;
-    width: 0;
-    height: 0;
-    margin-left: 20px;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-bottom: 7px solid #ffffff; */
 }
 
+li.dropdown > ul .dropdown-menu::before{
+border-left:none;
+border:none;
+}
 .dropdown-submenu .dropdown-menu {
     top: 0;
     left: 100%;
@@ -118,10 +113,9 @@
                                         </ul>
 
                                     </li>
-
                                     <li class="support-button-holder support-dropdown">
-                                        <a href="contact.html" ">Contact Us</a>
-                                    </li>
+                                            <a class="support-button" href="contact.html" ">Contact Us</a>
+                                        </li>
                                 </ul>
                             </div>
                         </div>
@@ -177,8 +171,12 @@
             <div class="row">
 
                 <div class="col-md-12">
-                    <div class="top-title">What Sets Us Apart</div>
-                    <div class="row-subtitle"></div>
+                    <div style="padding-bottom:50px;">
+                            <div class="section-title">What Sets Us Apart</div>
+                    <div class="tech-subtitle"></div>
+                    </div>
+                
+                    
                 </div>
                 <!-- <div class="info-why">
                     <h3 style="color:#2F3C52">WHY US?</h3>
@@ -187,7 +185,7 @@
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Expertise</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;text-decoration:none">Expertise</a>
                             <img src="images/expertise.png" style="width:50px; margin-left:110px" alt="">
                         </div>
 
@@ -201,7 +199,7 @@
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Value</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;text-decoration:none">Value</a>
                             <img src="images/mobile-payment.png" style="width:50px; margin-left:150px" alt="">
                         </div>
 
@@ -215,7 +213,7 @@
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Delivery</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;text-decoration:none">Delivery</a>
                             <img src="images/briefcase.png" style="width:50px; margin-left:120px" alt="">
                         </div>
 
@@ -228,7 +226,7 @@
                     <div class="col-md-3">
 
                         <div class="expert-text">
-                            <a href="" style="font-size: 20px; font-weight: bold; color: #2A4968;">Adaptibility</a>
+                            <a href="" style="font-size: 20px; font-weight: bold; color:#2A4968; text-decoration:none">Adaptibility</a>
                             <img src="images/communication.png" style="width:50px; margin-left:80px" alt="">
                         </div>
 
@@ -248,8 +246,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="row-title">Why Choose Us</div>
-                    <div class="row-subtitle"></div>
+                    <div class="section-title">Why Choose Us</div>
+                    <div class="tech-subtitle"></div>
                 </div>
             </div>
             <div style="width:80%; margin:auto">
@@ -260,13 +258,98 @@
         </div>
     </div>
 
+    <div id="articles" class="container-fluid">
+            <div class="container">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">Our Technology</div>
+                            <div class="tech-subtitle"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="animated slideInLeft col-sm-6 col-md-4">
+                            <div class="article-summary">
+                                <div class="tech-img"><img src="images/linear-iconweb01-04.png" alt="" /></div>
+                                <div class="tech-details">
+                                    <div class="tech-title"><a href="">Web Application Development</a></div>
+                                    <br>
+                                    <div class="tech-text">
+                                       We have mastered the creative art of developing savvy mobile applications.
+                                       Whether Android,Iphone or Windows Mobile apps, we have the know how and skills
+                                       set to meet your needs.
+                                    </div>
+                                    <div class="tech-subtitle"></div>
+                                 
+                                    <div>
+                                      <p style="color:#9DA9BC;margin-top:10px;">Kotlin | Java | Swift</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                                <div class="article-summary">
+                                        <div class="tech-img"><img src="images/linear-iconmobile01-04.png" alt="" /></div>
+                                        <div class="tech-details">
+                                            <div class="tech-title"><a href="">Mobile Application Development</a></div>
+                                            <br>
+                                            <div class="tech-text">
+                                             We design high performing, flexible and customed used web applications with
+                                             technological frameworks that are mobility driven and enable optimized development.
+                                            </div>
+                                            <div class="tech-subtitle"></div>
+                                         
+                                            <div>
+                                              <p style="color:#9DA9BC;margin-top:10px;">Asp.Net Core | JavaScript</p> 
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="animated slideInRight col-sm-6 col-md-4">
+                                <div class="article-summary">
+                                        <div class="tech-img"><img src="images/CloudComp-04.png" alt="" /></div>
+                                        <div class="tech-details">
+                                            <div class="tech-title"><a href="">Cloud Computing</a></div>
+                                            <br>
+                                            <div class="tech-text">
+                                               Our Process of delivery requires we work hand-in-hand with top of the line service providers
+                                               enabling us develop your state of the art cloud solutions quickly and cost-effectively.
+                                            </div>
+                                            <div class="tech-subtitle"></div>
+                                         
+                                            <div>
+                                              <p style="color:#9DA9BC;margin-top:10px;">Microsoft Azure | AWS</p> 
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                       
+                       
+                   
+                        <!-- <div class="col-md-12">
+                            <div class="pagination">
+                                <span class="current page-number">1</span>
+                                <a class="page-number" href="#">2</a>
+                                <a class="next page-number" href="#"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
     <div id="testimonials" class="container-fluid">
         <div class="bg-color"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="client-title">Our Clients</div>
-                    <div class="row-subtitle">Who trusted us</div>
+                        <div class="section-title">Our Clients</div>
+                        <div class="tech-subtitle"></div>
                 </div>
             </div>
             <div class="row">
@@ -279,6 +362,7 @@
             </div>
         </div>
     </div>
+
 
 
     <div id="footer" class="container-fluid">
